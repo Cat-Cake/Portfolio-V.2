@@ -1,0 +1,27 @@
+.pres {
+    display: flex;
+    // background-color: red;
+}
+
+.pres .pic-perso,
+.pres-perso {
+    width: 100%;
+    height: 43rem;
+}
+
+.me-picture {
+    max-height: 43rem;
+}
+
+.pres-perso {
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        text-align: left;
+        width: 60%;
+        margin-top: 10px;
+    }
+}

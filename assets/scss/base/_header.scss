@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+    background-color: $bg_black;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+a {
+    position: relative;
+}
+
+a::after {
+    content: '';
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: $bg_orange;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
+
+a:hover {
+    color: $bg_orange;
+}

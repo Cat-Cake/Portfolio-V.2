@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px)
+{
+    .pres {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .pres,
+    .skills, 
+    .formations, 
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .pres-perso {
+    width: 100%;
+    height: 100% !important;
+}
+
+.specialty {
+    margin: 15px 0;
+}
+
+.pres {
+    height: 60vh;
+}
+
+.pic-perso {
+    display: none;
+}
+
+button.know-more {
+    width: 10rem;
+}
+
+h2 {
+    font-size: 35px !important;
+}
+
+.specialty-content {
+    flex-wrap: wrap;
+}
+
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+
+.specialty-content {
+    flex-direction: column;
+}
+
+}
+
+@media screen and (max-width: 500px)
+{
+
+.card {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    // display: flex;
+    // justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 590px)
+{
+
+    button.know-more {
+        width: 30vw !important;
+    }
+
+}

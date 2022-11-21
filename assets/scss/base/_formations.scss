@@ -1,0 +1,49 @@
+.formations {
+    width: 100%;
+    display: flex;
+
+    .forma-pres, .forma-desc {
+        width: 100%;
+    }
+
+    .forma-desc {
+        display: flex;
+        justify-content: center;
+
+        .separation-container {
+            margin: 5rem 0;
+        }
+    }
+
+    .forma-pres {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+            text-align: left;
+            width: 60%;
+            margin-top: 10px;
+        }
+    }
+
+    .content-container {
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .description {
+        margin-top: 10px;
+    }
+
+    .card-img img {
+        width: 90%;
+    }
+
+}

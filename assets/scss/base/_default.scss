@@ -1,0 +1,13 @@
+@import '../layout/colors';
+
+body {
+    background-color: $bg_black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-container a {
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+button {
+    background-color: $bg_orange;
+    border-radius: 5px;
+    background-color: $bg_orange;
+    color: $white;
+    cursor: pointer;
+}
+
+button.contact {
+    width: 5vw;
+    height: 3vh;
+}
+
+button:hover {
+    background-color: $bg_orange;
+    color: $white;
+    border-color: $white;
+}
+
+button.know-more {
+    margin-top: 15px;
+    width: 17%;
+    height: 3vh;
+}

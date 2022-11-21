@@ -1,0 +1,67 @@
+.projects {
+    width: 100%;
+    background-color: $bg_sc_black;
+    display: flex;
+
+    .projects-pres, .projects-desc {
+        width: 100%;
+    }
+
+    .projects-desc {
+        display: flex;
+        justify-content: center;
+
+        .separation-container {
+            margin: 5rem 0;
+        }
+    }
+
+    .projects-pres {
+        div {
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            top: 50%;
+            position: sticky;
+        }
+        p {
+            text-align: left;
+            width: 60%;
+            margin-top: 10px;
+        }
+    }
+
+    .content-container {
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-img {
+        margin-bottom: 10px;
+
+        img {
+            width: 30vw;
+            height: auto;
+
+        }
+    }
+
+    .description {
+        margin-top: 10px;
+    }
+
+    .button-container {
+        margin-top: 25px;
+        a {
+            color: $cl_typo_orange;
+        }
+    }
+
+}
