@@ -350,4 +350,8 @@ a:hover {
   margin-top: 10px;
 }
 
+.pres-perso a:last-child {
+  margin-top: 2rem;
+}
+
 /*# sourceMappingURL=app.css.map */
