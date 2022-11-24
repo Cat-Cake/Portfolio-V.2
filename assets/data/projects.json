@@ -34,5 +34,14 @@
         "description": "Création d'un site avec WordPress",
         "imgInButton" : "./assets/img/link-icon.png",
         "linkInButton" : "https://www.behance.net/gallery/134995025/Projet-WordPress-TravelCorp"
+    },
+    {
+        "image" : "./assets/img/lucloud.png",
+        "altImage" : "Projet de Cloud",
+        "title" : "Projet LuCloud",
+        "date": "20/11/22",
+        "description": "Création d'un projet de cloud",
+        "imgInButton" : "./assets/img/link-icon.png",
+        "linkInButton" : "https://www.behance.net/gallery/157818463/Projet-Cloud"
     }
 ]
