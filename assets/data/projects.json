@@ -40,7 +40,7 @@
         "altImage" : "Projet de Cloud",
         "title" : "Projet LuCloud",
         "date": "20/11/22",
-        "description": "Création d'un projet de cloud",
+        "description": "Création d'un projet de site cloud avec Firebase",
         "imgInButton" : "./assets/img/link-icon.png",
         "linkInButton" : "https://www.behance.net/gallery/157818463/Projet-Cloud"
     }
