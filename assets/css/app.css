@@ -146,9 +146,11 @@ a {
 }
 .projects .card-img {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 .projects .card-img img {
-  width: 30vw;
+  width: 90%;
   height: auto;
 }
 .projects .description {
