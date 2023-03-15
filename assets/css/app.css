@@ -5,9 +5,9 @@
 }
 @media screen and (max-width: 1024px) {
   .pres,
-.skills,
-.formations,
-.projects {
+  .skills,
+  .formations,
+  .projects {
     flex-wrap: wrap;
   }
   .pres-perso {
