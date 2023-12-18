@@ -40,6 +40,11 @@
   .specialty-content {
     flex-direction: column;
   }
+
+  .skills .specialty-content:nth-child(4) .specialty {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .card {
@@ -208,6 +213,16 @@ a {
 .skills .specialty-content:nth-child(6) {
   justify-content: left;
 }
+.skills .specialty-content:nth-child(4) {
+  justify-content: left;
+  align-items: center;
+  margin: 5% 0 0 0;
+}
+
+.skills .specialty-content:nth-child(4) .specialty {
+  margin: 0 2% 0 2%;
+}
+
 .skills .specialty {
   text-align: center;
 }
@@ -261,12 +276,14 @@ button {
 button.contact {
   width: 5vw;
   height: 3vh;
+  border: none;
 }
 
 button:hover {
   background-color: #ED5521;
   color: #f5f5f5;
   border-color: #f5f5f5;
+  border: #f5f5f5;
 }
 
 button.know-more {
